@@ -1,0 +1,24 @@
+.table-striped>tbody>tr:nth-child(odd)>td
+{
+  background-color: #5F96F9;
+  color: white;
+}
+.table-striped>tbody>tr:nth-child(even)>td
+{
+  background-color: #6A6A67;
+  color: white;
+}
+
+body 
+{    
+    line-height: 1.8;
+}
+h1.headline {
+    color: maroon;
+    font-size: 40px;
+    font-family: "Abel", Arial, sans-serif;
+}
+.bottom-space
+{
+    margin-bottom: 30px;
+ }
