@@ -14,11 +14,11 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument('--no-sandbox')
+browser = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver', options=chrome_options)
 
-options = Options()
-options.headless = True
-# Create an instance of Chrome WebDriver
-browser = webdriver.Chrome(options=options)
 browser.maximize_window()
 
 # Navigate to QA Interview (Factorial Calculator) application webpage
